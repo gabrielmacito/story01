@@ -1,0 +1,52 @@
+body {
+    color: black; 
+    font-family: "Arial";
+    line-height: 30px;
+}
+
+.titulo {
+    font-size: 300%;
+    font-family: "arial";
+    font-weight: bold;
+    margin: 20px;
+}
+
+.formulario {   
+    font-size: 150%;
+    margin: 60px;
+}
+
+.caixa {
+    text-align: center;
+    border-radius: 8px;
+}
+
+.caixa::-webkit-outer-spin-button,
+.caixa::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#botao {
+    display: block;
+    width: 100px;
+    height: 26px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.resultado {
+    font-size: 28px;
+    margin: 100px;
+}
+
+.rodape-pagina {
+    font-family: "arial";
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
